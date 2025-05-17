@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from app.config.database import Base, engine
-from app.routers import auth
+from config.database import Base, engine
+from routers import auth
 
 app = FastAPI(title="FastAPI Auth API", description="API for user registration and login", version="1.0.0")
 
